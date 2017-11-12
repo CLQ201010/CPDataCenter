@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44D20F12606E9BEE2C1FBF06 /* libPods-CPDataCenterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82088C68120577969B3AF56C /* libPods-CPDataCenterTests.a */; };
+		4A4195141FB81F0B00FE7499 /* CPDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4195131FB81F0B00FE7499 /* CPDataCenter.m */; };
+		4A41951C1FB8236900FE7499 /* CPDataCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A41951B1FB8236900FE7499 /* CPDataCenterTests.m */; };
+		4A41952A1FB8295A00FE7499 /* CPTableGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4195291FB8295A00FE7499 /* CPTableGroup.m */; };
+		4A41952D1FB8297500FE7499 /* CPTableGroupRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A41952C1FB8297500FE7499 /* CPTableGroupRecord.m */; };
+		4A4195301FB8298800FE7499 /* CPTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A41952F1FB8298800FE7499 /* CPTableItem.m */; };
+		4A4195331FB8299A00FE7499 /* CPTableItemRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4195321FB8299A00FE7499 /* CPTableItemRecord.m */; };
+		4A4195371FB82C3300FE7499 /* Target_CPDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4195361FB82C3300FE7499 /* Target_CPDatabase.m */; };
 		4A76472B1FB80C96001D5289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A76472A1FB80C96001D5289 /* AppDelegate.m */; };
 		4A76472E1FB80C96001D5289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A76472D1FB80C96001D5289 /* ViewController.m */; };
 		4A7647311FB80C96001D5289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A76472F1FB80C96001D5289 /* Main.storyboard */; };
@@ -16,7 +24,32 @@
 		9B582C72C445244ED975EB44 /* libPods-CPDataCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919EBA77C276C890DB56B21A /* libPods-CPDataCenter.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4A41951E1FB8236900FE7499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A76471E1FB80C96001D5289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A7647251FB80C96001D5289;
+			remoteInfo = CPDataCenter;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4A4195121FB81F0B00FE7499 /* CPDataCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDataCenter.h; sourceTree = "<group>"; };
+		4A4195131FB81F0B00FE7499 /* CPDataCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDataCenter.m; sourceTree = "<group>"; };
+		4A4195191FB8236900FE7499 /* CPDataCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPDataCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A41951B1FB8236900FE7499 /* CPDataCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDataCenterTests.m; sourceTree = "<group>"; };
+		4A41951D1FB8236900FE7499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4195281FB8295A00FE7499 /* CPTableGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTableGroup.h; sourceTree = "<group>"; };
+		4A4195291FB8295A00FE7499 /* CPTableGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTableGroup.m; sourceTree = "<group>"; };
+		4A41952B1FB8297500FE7499 /* CPTableGroupRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTableGroupRecord.h; sourceTree = "<group>"; };
+		4A41952C1FB8297500FE7499 /* CPTableGroupRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTableGroupRecord.m; sourceTree = "<group>"; };
+		4A41952E1FB8298800FE7499 /* CPTableItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTableItem.h; sourceTree = "<group>"; };
+		4A41952F1FB8298800FE7499 /* CPTableItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTableItem.m; sourceTree = "<group>"; };
+		4A4195311FB8299A00FE7499 /* CPTableItemRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTableItemRecord.h; sourceTree = "<group>"; };
+		4A4195321FB8299A00FE7499 /* CPTableItemRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTableItemRecord.m; sourceTree = "<group>"; };
+		4A4195351FB82C3300FE7499 /* Target_CPDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_CPDatabase.h; sourceTree = "<group>"; };
+		4A4195361FB82C3300FE7499 /* Target_CPDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_CPDatabase.m; sourceTree = "<group>"; };
 		4A7647261FB80C96001D5289 /* CPDataCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPDataCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7647291FB80C96001D5289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A76472A1FB80C96001D5289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,12 +60,23 @@
 		4A7647351FB80C96001D5289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7647371FB80C96001D5289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7647381FB80C96001D5289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82088C68120577969B3AF56C /* libPods-CPDataCenterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPDataCenterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		919EBA77C276C890DB56B21A /* libPods-CPDataCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPDataCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEB8FF13A433E1E86605A92 /* Pods-CPDataCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDataCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPDataCenter/Pods-CPDataCenter.release.xcconfig"; sourceTree = "<group>"; };
+		A52D604511669F268FE9832B /* Pods-CPDataCenterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDataCenterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPDataCenterTests/Pods-CPDataCenterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE712A73CD888C9AA11066B1 /* Pods-CPDataCenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDataCenterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPDataCenterTests/Pods-CPDataCenterTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA93775D97451FF5A3BF1A4B /* Pods-CPDataCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDataCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPDataCenter/Pods-CPDataCenter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4A4195161FB8236900FE7499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D20F12606E9BEE2C1FBF06 /* libPods-CPDataCenterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A7647231FB80C96001D5289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,6 +93,8 @@
 			children = (
 				DA93775D97451FF5A3BF1A4B /* Pods-CPDataCenter.debug.xcconfig */,
 				9AEB8FF13A433E1E86605A92 /* Pods-CPDataCenter.release.xcconfig */,
+				A52D604511669F268FE9832B /* Pods-CPDataCenterTests.debug.xcconfig */,
+				CE712A73CD888C9AA11066B1 /* Pods-CPDataCenterTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -57,14 +103,92 @@
 			isa = PBXGroup;
 			children = (
 				919EBA77C276C890DB56B21A /* libPods-CPDataCenter.a */,
+				82088C68120577969B3AF56C /* libPods-CPDataCenterTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A4195111FB81F0100FE7499 /* CPDataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4A4195121FB81F0B00FE7499 /* CPDataCenter.h */,
+				4A4195131FB81F0B00FE7499 /* CPDataCenter.m */,
+				4A4195231FB8294000FE7499 /* Tables */,
+			);
+			path = CPDataCenter;
+			sourceTree = "<group>";
+		};
+		4A41951A1FB8236900FE7499 /* CPDataCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A41951B1FB8236900FE7499 /* CPDataCenterTests.m */,
+				4A41951D1FB8236900FE7499 /* Info.plist */,
+			);
+			path = CPDataCenterTests;
+			sourceTree = "<group>";
+		};
+		4A4195231FB8294000FE7499 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				4A4195341FB82B8F00FE7499 /* Config */,
+				4A4195241FB8294000FE7499 /* Group */,
+				4A4195261FB8294000FE7499 /* Item */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		4A4195241FB8294000FE7499 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				4A4195251FB8294000FE7499 /* Record */,
+				4A4195281FB8295A00FE7499 /* CPTableGroup.h */,
+				4A4195291FB8295A00FE7499 /* CPTableGroup.m */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		4A4195251FB8294000FE7499 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				4A41952B1FB8297500FE7499 /* CPTableGroupRecord.h */,
+				4A41952C1FB8297500FE7499 /* CPTableGroupRecord.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		4A4195261FB8294000FE7499 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				4A4195271FB8294000FE7499 /* Record */,
+				4A41952E1FB8298800FE7499 /* CPTableItem.h */,
+				4A41952F1FB8298800FE7499 /* CPTableItem.m */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		4A4195271FB8294000FE7499 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				4A4195311FB8299A00FE7499 /* CPTableItemRecord.h */,
+				4A4195321FB8299A00FE7499 /* CPTableItemRecord.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		4A4195341FB82B8F00FE7499 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4A4195351FB82C3300FE7499 /* Target_CPDatabase.h */,
+				4A4195361FB82C3300FE7499 /* Target_CPDatabase.m */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		4A76471D1FB80C96001D5289 = {
 			isa = PBXGroup;
 			children = (
 				4A7647281FB80C96001D5289 /* CPDataCenter */,
+				4A41951A1FB8236900FE7499 /* CPDataCenterTests */,
 				4A7647271FB80C96001D5289 /* Products */,
 				00F68762BA0747F8F9BCB646 /* Pods */,
 				08FFB81BD2F106356B62316B /* Frameworks */,
@@ -75,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				4A7647261FB80C96001D5289 /* CPDataCenter.app */,
+				4A4195191FB8236900FE7499 /* CPDataCenterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +207,7 @@
 		4A7647281FB80C96001D5289 /* CPDataCenter */ = {
 			isa = PBXGroup;
 			children = (
+				4A4195111FB81F0100FE7499 /* CPDataCenter */,
 				4A7647291FB80C96001D5289 /* AppDelegate.h */,
 				4A76472A1FB80C96001D5289 /* AppDelegate.m */,
 				4A76472C1FB80C96001D5289 /* ViewController.h */,
@@ -98,6 +224,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4A4195181FB8236900FE7499 /* CPDataCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4195201FB8236900FE7499 /* Build configuration list for PBXNativeTarget "CPDataCenterTests" */;
+			buildPhases = (
+				E5B47274E1C46F3A6B0BC56C /* [CP] Check Pods Manifest.lock */,
+				4A4195151FB8236900FE7499 /* Sources */,
+				4A4195161FB8236900FE7499 /* Frameworks */,
+				4A4195171FB8236900FE7499 /* Resources */,
+				F9D8A89AE9046AB8140D604A /* [CP] Embed Pods Frameworks */,
+				9E588EB0F3562EF297844D8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A41951F1FB8236900FE7499 /* PBXTargetDependency */,
+			);
+			name = CPDataCenterTests;
+			productName = CPDataCenterTests;
+			productReference = 4A4195191FB8236900FE7499 /* CPDataCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4A7647251FB80C96001D5289 /* CPDataCenter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A76473C1FB80C96001D5289 /* Build configuration list for PBXNativeTarget "CPDataCenter" */;
@@ -127,6 +274,11 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = casa;
 				TargetAttributes = {
+					4A4195181FB8236900FE7499 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A7647251FB80C96001D5289;
+					};
 					4A7647251FB80C96001D5289 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -147,11 +299,19 @@
 			projectRoot = "";
 			targets = (
 				4A7647251FB80C96001D5289 /* CPDataCenter */,
+				4A4195181FB8236900FE7499 /* CPDataCenterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4A4195171FB8236900FE7499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A7647241FB80C96001D5289 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,20 +373,90 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9E588EB0F3562EF297844D8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPDataCenterTests/Pods-CPDataCenterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B47274E1C46F3A6B0BC56C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPDataCenterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D8A89AE9046AB8140D604A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPDataCenterTests/Pods-CPDataCenterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A4195151FB8236900FE7499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A41951C1FB8236900FE7499 /* CPDataCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A7647221FB80C96001D5289 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A41952D1FB8297500FE7499 /* CPTableGroupRecord.m in Sources */,
 				4A76472E1FB80C96001D5289 /* ViewController.m in Sources */,
 				4A7647391FB80C96001D5289 /* main.m in Sources */,
 				4A76472B1FB80C96001D5289 /* AppDelegate.m in Sources */,
+				4A4195141FB81F0B00FE7499 /* CPDataCenter.m in Sources */,
+				4A4195301FB8298800FE7499 /* CPTableItem.m in Sources */,
+				4A4195371FB82C3300FE7499 /* Target_CPDatabase.m in Sources */,
+				4A41952A1FB8295A00FE7499 /* CPTableGroup.m in Sources */,
+				4A4195331FB8299A00FE7499 /* CPTableItemRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A41951F1FB8236900FE7499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A7647251FB80C96001D5289 /* CPDataCenter */;
+			targetProxy = 4A41951E1FB8236900FE7499 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4A76472F1FB80C96001D5289 /* Main.storyboard */ = {
@@ -248,6 +478,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4A4195211FB8236900FE7499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52D604511669F268FE9832B /* Pods-CPDataCenterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPDataCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.CPDataCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPDataCenter.app/CPDataCenter";
+			};
+			name = Debug;
+		};
+		4A4195221FB8236900FE7499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE712A73CD888C9AA11066B1 /* Pods-CPDataCenterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CPDataCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casa.CPDataCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPDataCenter.app/CPDataCenter";
+			};
+			name = Release;
+		};
 		4A76473A1FB80C96001D5289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,6 +643,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4A4195201FB8236900FE7499 /* Build configuration list for PBXNativeTarget "CPDataCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4195211FB8236900FE7499 /* Debug */,
+				4A4195221FB8236900FE7499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4A7647211FB80C96001D5289 /* Build configuration list for PBXProject "CPDataCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

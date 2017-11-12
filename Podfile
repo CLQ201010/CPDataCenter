@@ -7,7 +7,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'CPDataCenter' do
 
     pod "CTPersistance"
-    # private
-    pod "HandyFrame"
+
+end
+
+target 'CPDataCenterTests' do
+
+    pod "CTPersistance"
 
 end
