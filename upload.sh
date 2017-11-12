@@ -4,7 +4,7 @@ git stash
 git pull origin master --tags
 git stash pop
 
-VersionString=`grep -E 's.version.*=' BLAPIManagers.podspec`
+VersionString=`grep -E 's.version.*=' CPDataCenter.podspec`
 VersionNumber=`tr -cd 0-9 <<<"$VersionString"`
 
 NewVersionNumber=$(($VersionNumber + 1))
