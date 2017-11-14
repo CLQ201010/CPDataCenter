@@ -5,3 +5,4 @@ Pods/
 Podfile.lock
 .DS_Store
 CPDataCenter.xcodeproj/project.xcworkspace/xcuserdata/
+.!*!CPDataCenter.podspec
